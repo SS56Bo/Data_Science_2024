@@ -1,0 +1,11 @@
+Feature Vectors in Machine Learning
+
+[Taken from: https://robots.net/fintech/what-is-feature-vector-in-machine-learning/] 
+[NOTE: Taken simply for Notetaking purpose.]
+
+n the context of machine learning, a feature vector is a numerical representation that captures the essential characteristics of an object or data point. It consists of a set of features or attributes that describe the object. These features can be quantitative, categorical, or even textual. To understand the concept of a feature vector better, let’s consider an example. Suppose we want to build a spam email classifier. We can start by defining a set of features that help classify an email as spam or non-spam. These features may include the presence of certain keywords, the number of exclamation marks in the subject line, the sender’s domain, and the length of the email text. Each of these features forms a component of the feature vector.
+
+
+The feature vector serves as a bridge between the raw data and the machine learning algorithm. It transforms the unstructured data into a structured format that the algorithm can understand and utilize for training and making predictions. By organizing the features into a vector, we create a concise representation that captures the necessary information while eliminating noise and irrelevant details.
+
+In practice, a feature vector is typically represented as a one-dimensional array or vector. Each element of the vector corresponds to a specific feature and contains its corresponding value or encoding. For example, in our spam email classifier, the feature vector might look like [0, 3, 1, 342]. Here, the first element represents the presence of a particular keyword (0 for absent, 1 for present), the second element represents the number of exclamation marks, the third element represents the sender’s domain (encoded as a categorical value), and the fourth element represents the length of the email text.
